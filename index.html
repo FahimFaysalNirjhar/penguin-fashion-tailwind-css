@@ -1,19 +1,51 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Penguin Fashion</title>
     <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:ital,wght@0,700;1,700&family=Roboto:wght@400;500;700;900&display=swap"
+        rel="stylesheet">
+    <style>
+        .bebas-neue-regular {
+            font-family: "Bebas Neue", sans-serif;
+        }
+
+        .roboto-regular {
+            font-family: "Roboto", sans-serif;
+        }
+
+        .montserrat {
+            font-family: "Montserrat", sans-serif;
+        }
+    </style>
 </head>
+
 <body>
     <header>
         <!-- nav section -->
-        <nav>
-
+        <nav class="flex flex-col gap-5 md:flex-row justify-between items-center max-w-7xl mx-auto mt-12 mb-5">
+            <div class="flex justify-center items-center gap-2">
+                <img src="icons/Frame.svg" alt="">
+                <h3 class="montserrat text-3xl"><span class="text-[#A4BC46]">Penguin</span> Fashion</h3>
+            </div>
+            <div>
+                <ul class="flex gap-4 md:gap-14">
+                    <li class="roboto-regular font-medium text-base"><a href="###">Home</a></li>
+                    <li class="roboto-regular font-medium text-base"><a href="###">Product</a></li>
+                    <li class="roboto-regular font-medium text-base"><a href="###">About Us</a></li>
+                    <li class="roboto-regular font-medium text-base"><a href="###">Contact Us</a></li>
+                </ul>
+            </div>
         </nav>
         <!-- banner section -->
-        
+
     </header>
 </body>
+
 </html>
